@@ -40,3 +40,34 @@ pm.test("Status code is 200", function () {
 });
 
 and added id in link
+
+
+
+________________________________________________________________________________________________
+
+eg. of data in the API
+
+id	3
+name	"Sprite"
+type	"Soda"
+yearOfProduction	2019
+1	
+id	4
+name	"Pepsi"
+type	"Soda"
+yearOfProduction	2019
+2	
+id	5
+name	"7up"
+type	"Soda"
+yearOfProduction	2019
+3	
+id	6
+name	"Mountain Dew"
+type	"Soda"
+yearOfProduction	2019
+4	
+id	7
+name	"Dr Pepper"
+type	"Soda"
+yearOfProduction	2019
