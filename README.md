@@ -4,18 +4,18 @@ Drinks API with notes (Swagger , Cors etc) /On Azure, and tested in Postman
 
 **Postman scripts for tests (Tested with Azure page)**
 
-**Create:**
+**Create: POST**
 pm.test("Status code is 201", function () {
     pm.response.to.have.status(201);
 });
 
-**Delete:**
+**Delete: DELETE**
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
 Link: api/drinks/idnumber
 
-**Update:**
+**Update: PUT**
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
@@ -27,14 +27,14 @@ eg. {
 }
 
 
-**Get all:**
+**Get all: GET**
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
 
 
 
-**GetbyID (issues):**
+**GetbyID (issues): GET**
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
